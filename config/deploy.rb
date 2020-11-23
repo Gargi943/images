@@ -1,6 +1,6 @@
 server '192.168.1.114', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:Gargi943/images.git'
+set :repo_url,        'https://github.com/Gargi943/images.git'
 set :application,     'images'
 set :user,            'yuva'
 set :puma_threads,    [4, 16]
